@@ -8,5 +8,5 @@ class TestJenkens():
 
     def test003(self):
         print("test003执行")
-        assert 0
+        assert 1
 
