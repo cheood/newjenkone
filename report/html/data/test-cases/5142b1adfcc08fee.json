@@ -1,0 +1,66 @@
+{
+  "uid" : "5142b1adfcc08fee",
+  "name" : "TestJenkens.test003",
+  "fullName" : "test_jenkens.TestJenkens.test003",
+  "historyId" : "1026c63135bda13bec4d085691b3f6d8",
+  "time" : {
+    "start" : 1568258756000,
+    "stop" : 1568258756068,
+    "duration" : 68
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "self = <test_jenkens.TestJenkens object at 0x0000000003B6F710>\n\n    def test003(self):\n        print(\"test003执行\")\n>       assert 0\nE       assert 0\n\nscript\\test_jenkens.py:11: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "lenovo-PC"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "8280-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_jenkens"
+  }, {
+    "name" : "testClass",
+    "value" : "test_jenkens"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestJenkens.test003"
+  }, {
+    "name" : "package",
+    "value" : "test_jenkens"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5142b1adfcc08fee.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,49 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "lenovo-PC",
+    "children" : [ {
+      "name" : "8280-MainThread",
+      "children" : [ {
+        "name" : "TestJenkens.test001",
+        "uid" : "1610383ce5aaebd",
+        "parentUid" : "11da08655065b0937eb75ae574457263",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568258755986,
+          "stop" : 1568258755992,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestJenkens.test003",
+        "uid" : "5142b1adfcc08fee",
+        "parentUid" : "11da08655065b0937eb75ae574457263",
+        "status" : "failed",
+        "time" : {
+          "start" : 1568258756000,
+          "stop" : 1568258756068,
+          "duration" : 68
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestJenkens.test002",
+        "uid" : "81f1e6cba4ab7b9e",
+        "parentUid" : "11da08655065b0937eb75ae574457263",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568258755995,
+          "stop" : 1568258755997,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "11da08655065b0937eb75ae574457263"
+    } ],
+    "uid" : "4390f85e985fc93a260b4fcc0ede2287"
+  } ]
+}

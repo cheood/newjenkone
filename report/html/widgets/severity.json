@@ -1,0 +1,31 @@
+[ {
+  "uid" : "1610383ce5aaebd",
+  "name" : "TestJenkens.test001",
+  "time" : {
+    "start" : 1568258755986,
+    "stop" : 1568258755992,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "81f1e6cba4ab7b9e",
+  "name" : "TestJenkens.test002",
+  "time" : {
+    "start" : 1568258755995,
+    "stop" : 1568258755997,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5142b1adfcc08fee",
+  "name" : "TestJenkens.test003",
+  "time" : {
+    "start" : 1568258756000,
+    "stop" : 1568258756068,
+    "duration" : 68
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

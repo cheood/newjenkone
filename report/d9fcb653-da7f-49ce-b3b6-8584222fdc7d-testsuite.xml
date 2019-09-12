@@ -1,0 +1,53 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1568258755986" stop="1568258756068">
+  <name>test_jenkens</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1568258755986" status="passed" stop="1568258755992">
+      <name>TestJenkens.test001</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8280-MainThread"/>
+        <label name="host" value="lenovo-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1568258755995" status="passed" stop="1568258755997">
+      <name>TestJenkens.test002</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8280-MainThread"/>
+        <label name="host" value="lenovo-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1568258756000" status="failed" stop="1568258756068">
+      <name>TestJenkens.test003</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;test_jenkens.TestJenkens object at 0x0000000003B6F710&gt;
+
+    def test003(self):
+        print("test003执行")
+&gt;       assert 0
+E       assert 0
+
+script\test_jenkens.py:11: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8280-MainThread"/>
+        <label name="host" value="lenovo-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

@@ -1,0 +1,60 @@
+{
+  "uid" : "81f1e6cba4ab7b9e",
+  "name" : "TestJenkens.test002",
+  "fullName" : "test_jenkens.TestJenkens.test002",
+  "historyId" : "317b32ede790a123914ed3ae736ff70c",
+  "time" : {
+    "start" : 1568258755995,
+    "stop" : 1568258755997,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "lenovo-PC"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "8280-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_jenkens"
+  }, {
+    "name" : "testClass",
+    "value" : "test_jenkens"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestJenkens.test002"
+  }, {
+    "name" : "package",
+    "value" : "test_jenkens"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "81f1e6cba4ab7b9e.json",
+  "parameterValues" : [ ]
+}
